@@ -1,0 +1,21 @@
+{
+  "name": "pdfprintserver",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2",
+    "pdf-to-printer": "^5.6.0"
+  },
+  "devDependencies": {
+    "nexe": "^4.0.0-rc.2"
+  }
+}
